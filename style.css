@@ -1,0 +1,44 @@
+.shelf{
+  width:600px;
+  margin:auto;
+  display: inline-block;
+}
+
+.item{
+  display: inline-block;
+  width:30%;
+  position: relative;
+}
+
+img{
+  width:100%;
+  height:auto;
+}
+
+.rabatgreen{
+  background-color: green;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.rabatred{
+  background-color: red;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.heart{
+  position: absolute;
+  color:red;
+  bottom: 0;
+  left:45%;
+  padding: 2%;
+  transform: translate(-50% -50%);
+  display: none;
+}
+
+.item:hover .heart{
+  display: block;
+}
